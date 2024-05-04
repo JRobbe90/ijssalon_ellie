@@ -16,7 +16,6 @@ totaal_inkomsten = inkomsten_totaal(inkomsten, 0)
 btw = inkomsten_totaal(inkomsten, 0.91)
 print(f"Het totaal van alle inkomsten van deze week is {totaal_inkomsten} euro, waarover {btw:.2f} euro btw betaald dient te worden.")
 
-
 def laag_en_hoog(mijn_lijst):
     laag = min(inkomsten)
     hoog = max(inkomsten)
